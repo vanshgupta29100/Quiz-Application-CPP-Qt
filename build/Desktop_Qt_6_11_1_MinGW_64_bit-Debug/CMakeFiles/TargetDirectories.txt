@@ -1,0 +1,9 @@
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/QuizApplication.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/QuizApplication_autogen_timestamp_deps.dir
+D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/QuizApplication_autogen.dir
