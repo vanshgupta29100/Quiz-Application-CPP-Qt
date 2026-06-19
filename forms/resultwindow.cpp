@@ -21,9 +21,7 @@ void ResultWindow::setResult(
     int wrongAnswers =
         totalQuestions - correctAnswers;
 
-    double percentage =
-        ((double)correctAnswers /
-         totalQuestions) * 100.0;
+    double percentage = ((double)correctAnswers / totalQuestions) * 100.0;
 
     ui->totalQuestionsLabel->setText(
         "Total Questions : "
