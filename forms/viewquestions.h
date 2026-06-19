@@ -15,6 +15,9 @@ public:
     explicit ViewQuestions(QWidget *parent = nullptr);
     ~ViewQuestions();
 
+private slots:
+    void on_deleteButton_clicked();
+
 private:
     Ui::ViewQuestions *ui;
 

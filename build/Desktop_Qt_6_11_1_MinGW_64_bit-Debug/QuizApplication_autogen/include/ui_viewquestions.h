@@ -15,6 +15,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableWidget>
 #include <QtWidgets/QWidget>
@@ -27,6 +28,7 @@ public:
     QWidget *centralwidget;
     QLabel *label;
     QTableWidget *questionTableWidget;
+    QPushButton *deleteButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -61,6 +63,9 @@ public:
         questionTableWidget->setGeometry(QRect(70, 150, 711, 192));
         questionTableWidget->setColumnCount(7);
         questionTableWidget->horizontalHeader()->setProperty("showSortIndicator", QVariant(true));
+        deleteButton = new QPushButton(centralwidget);
+        deleteButton->setObjectName("deleteButton");
+        deleteButton->setGeometry(QRect(330, 380, 131, 24));
         ViewQuestions->setCentralWidget(centralwidget);
         menubar = new QMenuBar(ViewQuestions);
         menubar->setObjectName("menubar");
@@ -93,6 +98,7 @@ public:
         ___qtablewidgetitem5->setText(QCoreApplication::translate("ViewQuestions", "D", nullptr));
         QTableWidgetItem *___qtablewidgetitem6 = questionTableWidget->horizontalHeaderItem(6);
         ___qtablewidgetitem6->setText(QCoreApplication::translate("ViewQuestions", "Answer", nullptr));
+        deleteButton->setText(QCoreApplication::translate("ViewQuestions", "Delete Question", nullptr));
     } // retranslateUi
 
 };

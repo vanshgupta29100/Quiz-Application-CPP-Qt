@@ -1,5 +1,7 @@
 #include "viewquestions.h"
 #include "ui_viewquestions.h"
+#include <QMessageBox>
+#include <QSqlQuery>
 
 #include <QSqlQuery>
 #include <QTableWidgetItem>
@@ -84,5 +86,55 @@ void ViewQuestions::loadQuestions()
             );
 
         row++;
+    }
+}
+void ViewQuestions::on_deleteButton_clicked()
+{
+    int currentRow =
+        ui->questionTableWidget->currentRow();
+
+    if(currentRow < 0)
+    {
+        QMessageBox::warning(
+            this,
+            "Error",
+            "Please Select A Question"
+            );
+
+        return;
+    }
+
+    int questionId =
+        ui->questionTableWidget
+            ->item(currentRow,0)
+            ->text()
+            .toInt();
+
+    QSqlQuery query;
+
+    query.prepare(
+        "DELETE FROM questions "
+        "WHERE question_id = ?"
+        );
+
+    query.addBindValue(questionId);
+
+    if(query.exec())
+    {
+        QMessageBox::information(
+            this,
+            "Success",
+            "Question Deleted Successfully"
+            );
+
+        loadQuestions();
+    }
+    else
+    {
+        QMessageBox::warning(
+            this,
+            "Error",
+            "Unable To Delete Question"
+            );
     }
 }
