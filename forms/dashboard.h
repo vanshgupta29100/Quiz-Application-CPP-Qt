@@ -23,6 +23,9 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+private slots:
+    void on_startQuizButton_clicked();
+
 private:
     Ui::Dashboard *ui;
 };

@@ -29,6 +29,7 @@ public:
     QLabel *label;
     QTableWidget *questionTableWidget;
     QPushButton *deleteButton;
+    QPushButton *editButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -66,6 +67,9 @@ public:
         deleteButton = new QPushButton(centralwidget);
         deleteButton->setObjectName("deleteButton");
         deleteButton->setGeometry(QRect(330, 380, 131, 24));
+        editButton = new QPushButton(centralwidget);
+        editButton->setObjectName("editButton");
+        editButton->setGeometry(QRect(210, 380, 91, 24));
         ViewQuestions->setCentralWidget(centralwidget);
         menubar = new QMenuBar(ViewQuestions);
         menubar->setObjectName("menubar");
@@ -99,6 +103,7 @@ public:
         QTableWidgetItem *___qtablewidgetitem6 = questionTableWidget->horizontalHeaderItem(6);
         ___qtablewidgetitem6->setText(QCoreApplication::translate("ViewQuestions", "Answer", nullptr));
         deleteButton->setText(QCoreApplication::translate("ViewQuestions", "Delete Question", nullptr));
+        editButton->setText(QCoreApplication::translate("ViewQuestions", "Edit Question", nullptr));
     } // retranslateUi
 
 };

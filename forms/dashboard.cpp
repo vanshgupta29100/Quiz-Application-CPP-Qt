@@ -2,6 +2,7 @@
 #include "ui_dashboard.h"
 #include "questionmanager.h"
 #include "viewquestions.h"
+#include "quizwindow.h"
 
 Dashboard::Dashboard(QWidget *parent)
     : QMainWindow(parent)
@@ -38,3 +39,10 @@ void Dashboard::on_pushButton_2_clicked()
     viewWindow->show();
 }
 
+void Dashboard::on_startQuizButton_clicked()
+{
+    QuizWindow *quiz =
+        new QuizWindow();
+
+    quiz->show();
+}

@@ -97,6 +97,30 @@ build CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\QuizApplication.dir
   OBJECT_FILE_DIR = CMakeFiles\QuizApplication.dir\forms
 
+build CMakeFiles/QuizApplication.dir/forms/editquestion.cpp.obj: CXX_COMPILER__QuizApplication_unscanned_Debug D$:/Intern$ Projects/QuizApplication/forms/editquestion.cpp || cmake_object_order_depends_target_QuizApplication
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\QuizApplication.dir\forms\editquestion.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/include" -isystem D:/Qt/6.11.1/mingw_64/include/QtCore -isystem D:/Qt/6.11.1/mingw_64/include -isystem D:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.11.1/mingw_64/include/QtGui -isystem D:/Qt/6.11.1/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\QuizApplication.dir
+  OBJECT_FILE_DIR = CMakeFiles\QuizApplication.dir\forms
+
+build CMakeFiles/QuizApplication.dir/forms/quizwindow.cpp.obj: CXX_COMPILER__QuizApplication_unscanned_Debug D$:/Intern$ Projects/QuizApplication/forms/quizwindow.cpp || cmake_object_order_depends_target_QuizApplication
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\QuizApplication.dir\forms\quizwindow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/include" -isystem D:/Qt/6.11.1/mingw_64/include/QtCore -isystem D:/Qt/6.11.1/mingw_64/include -isystem D:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.11.1/mingw_64/include/QtGui -isystem D:/Qt/6.11.1/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\QuizApplication.dir
+  OBJECT_FILE_DIR = CMakeFiles\QuizApplication.dir\forms
+
+build CMakeFiles/QuizApplication.dir/forms/resultwindow.cpp.obj: CXX_COMPILER__QuizApplication_unscanned_Debug D$:/Intern$ Projects/QuizApplication/forms/resultwindow.cpp || cmake_object_order_depends_target_QuizApplication
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\QuizApplication.dir\forms\resultwindow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/include" -isystem D:/Qt/6.11.1/mingw_64/include/QtCore -isystem D:/Qt/6.11.1/mingw_64/include -isystem D:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.11.1/mingw_64/include/QtGui -isystem D:/Qt/6.11.1/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\QuizApplication.dir
+  OBJECT_FILE_DIR = CMakeFiles\QuizApplication.dir\forms
+
 build CMakeFiles/QuizApplication.dir/database/databasemanager.cpp.obj: CXX_COMPILER__QuizApplication_unscanned_Debug D$:/Intern$ Projects/QuizApplication/database/databasemanager.cpp || cmake_object_order_depends_target_QuizApplication
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\QuizApplication.dir\database\databasemanager.cpp.obj.d
@@ -113,7 +137,7 @@ build CMakeFiles/QuizApplication.dir/database/databasemanager.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable QuizApplication.exe
 
-build QuizApplication.exe: CXX_EXECUTABLE_LINKER__QuizApplication_Debug CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj CMakeFiles/QuizApplication.dir/main.cpp.obj CMakeFiles/QuizApplication.dir/forms/loginwindow.cpp.obj CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj CMakeFiles/QuizApplication.dir/forms/questionmanager.cpp.obj CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj CMakeFiles/QuizApplication.dir/database/databasemanager.cpp.obj | D$:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.11.1/mingw_64/lib/libQt6Sql.a D$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a D$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a D$:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a QuizApplication.exe.manifest || QuizApplication_autogen QuizApplication_autogen_timestamp_deps
+build QuizApplication.exe: CXX_EXECUTABLE_LINKER__QuizApplication_Debug CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj CMakeFiles/QuizApplication.dir/main.cpp.obj CMakeFiles/QuizApplication.dir/forms/loginwindow.cpp.obj CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj CMakeFiles/QuizApplication.dir/forms/questionmanager.cpp.obj CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj CMakeFiles/QuizApplication.dir/forms/editquestion.cpp.obj CMakeFiles/QuizApplication.dir/forms/quizwindow.cpp.obj CMakeFiles/QuizApplication.dir/forms/resultwindow.cpp.obj CMakeFiles/QuizApplication.dir/database/databasemanager.cpp.obj | D$:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.11.1/mingw_64/lib/libQt6Sql.a D$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a D$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a D$:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a QuizApplication.exe.manifest || QuizApplication_autogen QuizApplication_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.11.1/mingw_64/lib/libQt6Sql.a  D:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  D:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -201,7 +225,7 @@ build QuizApplication_autogen_timestamp_deps: phony
 #############################################
 # Utility command for QuizApplication_autogen
 
-build QuizApplication_autogen: phony CMakeFiles/QuizApplication_autogen QuizApplication_autogen/include/forms/ui_loginwindow.h QuizApplication_autogen/include/forms/ui_dashboard.h QuizApplication_autogen/include/forms/ui_questionmanager.h QuizApplication_autogen/include/forms/ui_viewquestions.h QuizApplication_autogen/timestamp QuizApplication_autogen/mocs_compilation.cpp QuizApplication_autogen_timestamp_deps
+build QuizApplication_autogen: phony CMakeFiles/QuizApplication_autogen QuizApplication_autogen/include/forms/ui_loginwindow.h QuizApplication_autogen/include/forms/ui_dashboard.h QuizApplication_autogen/include/forms/ui_questionmanager.h QuizApplication_autogen/include/forms/ui_viewquestions.h QuizApplication_autogen/include/forms/ui_editquestion.h QuizApplication_autogen/include/forms/ui_quizwindow.h QuizApplication_autogen/include/forms/ui_resultwindow.h QuizApplication_autogen/timestamp QuizApplication_autogen/mocs_compilation.cpp QuizApplication_autogen_timestamp_deps
 
 
 #############################################
@@ -218,7 +242,7 @@ build QuizApplication_autogen/timestamp QuizApplication_autogen/mocs_compilation
 #############################################
 # Phony custom command for CMakeFiles\QuizApplication_autogen
 
-build CMakeFiles/QuizApplication_autogen QuizApplication_autogen/include/forms/ui_loginwindow.h QuizApplication_autogen/include/forms/ui_dashboard.h QuizApplication_autogen/include/forms/ui_questionmanager.h QuizApplication_autogen/include/forms/ui_viewquestions.h | ${cmake_ninja_workdir}CMakeFiles/QuizApplication_autogen ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_loginwindow.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_dashboard.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_questionmanager.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_viewquestions.h: phony QuizApplication_autogen/timestamp || QuizApplication_autogen_timestamp_deps
+build CMakeFiles/QuizApplication_autogen QuizApplication_autogen/include/forms/ui_loginwindow.h QuizApplication_autogen/include/forms/ui_dashboard.h QuizApplication_autogen/include/forms/ui_questionmanager.h QuizApplication_autogen/include/forms/ui_viewquestions.h QuizApplication_autogen/include/forms/ui_editquestion.h QuizApplication_autogen/include/forms/ui_quizwindow.h QuizApplication_autogen/include/forms/ui_resultwindow.h | ${cmake_ninja_workdir}CMakeFiles/QuizApplication_autogen ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_loginwindow.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_dashboard.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_questionmanager.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_viewquestions.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_editquestion.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_quizwindow.h ${cmake_ninja_workdir}QuizApplication_autogen/include/forms/ui_resultwindow.h: phony QuizApplication_autogen/timestamp || QuizApplication_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

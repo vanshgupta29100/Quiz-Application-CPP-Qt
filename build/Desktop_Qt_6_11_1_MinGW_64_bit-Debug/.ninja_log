@@ -1,40 +1,26 @@
 # ninja log v7
-31	1457	8035845847868265	QuizApplication_autogen/timestamp	409542788a140921
-31	1457	8035845847868265	QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-31	1457	8035845847868265	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/timestamp	409542788a140921
-31	1457	8035845847868265	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-1458	4228	8035845850571578	CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj	544aae2370c62bbd
+29	1692	8035921787922572	QuizApplication_autogen/timestamp	409542788a140921
+29	1692	8035921787922572	QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
+29	1692	8035921787922572	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/timestamp	409542788a140921
+29	1692	8035921787922572	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
+1693	5136	8035921790534415	CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj	544aae2370c62bbd
 476	2221	8035606498303086	CMakeFiles/QuizApplication.dir/main.cpp.obj	ed2c744f9f41dbb
-4278	4541	8035845878761040	QuizApplication.exe	8551f8159d2d22fe
+5161	5513	8035921825216172	QuizApplication.exe	c80f3476f58b2a3d
 481	2008	8035606498353103	CMakeFiles/QuizApplication.dir/database/databasemanager.cpp.obj	39826ee124ddb6f7
-426	2244	8035843196837071	CMakeFiles/QuizApplication.dir/forms/loginwindow.cpp.obj	90287a97ff43e011
+452	2625	8035914682470103	CMakeFiles/QuizApplication.dir/forms/loginwindow.cpp.obj	90287a97ff43e011
 25	53	8035606492645552	CMakeFiles/clean.additional	ec5917acf9c4f10
 53	62	8035606492935384	clean	7b037816d5af7aea
-428	2119	8035843196857072	CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj	eb146c499397155a
-183	1669	8035844155725913	CMakeFiles/QuizApplication.dir/forms/questionmanager.cpp.obj	996397a67948837f
-1464	4278	8035845850631578	CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj	ddce32841833a3e5
+463	2314	8035918314194139	CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj	eb146c499397155a
 28	1762	8035852334336572	CMakeFiles/QuizApplication.dir/forms/questionmanager.cpp.obj	996397a67948837f
-1762	1977	8035852351672892	QuizApplication.exe	8551f8159d2d22fe
-12	865	8035857150579968	QuizApplication_autogen/timestamp	409542788a140921
-12	865	8035857150579968	QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-12	865	8035857150579968	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/timestamp	409542788a140921
-12	865	8035857150579968	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-866	3934	8035857151545471	CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj	544aae2370c62bbd
-876	4026	8035857151645461	CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj	eb146c499397155a
-871	4160	8035857151595454	CMakeFiles/QuizApplication.dir/forms/loginwindow.cpp.obj	90287a97ff43e011
-880	4461	8035857151685444	CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj	ddce32841833a3e5
-4462	4718	8035857187504893	QuizApplication.exe	8551f8159d2d22fe
-27	191	8035857662137151	QuizApplication_autogen/timestamp	409542788a140921
-27	191	8035857662137151	QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-27	191	8035857662137151	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/timestamp	409542788a140921
-27	191	8035857662137151	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-192	1799	8035857663780616	CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj	eb146c499397155a
-1799	2029	8035857679857095	QuizApplication.exe	8551f8159d2d22fe
-8	441	8035893505805100	QuizApplication_autogen/timestamp	409542788a140921
-8	441	8035893505805100	QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-8	441	8035893505805100	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/timestamp	409542788a140921
-8	441	8035893505805100	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
-442	2094	8035893506460359	CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj	544aae2370c62bbd
-445	2114	8035893506500372	CMakeFiles/QuizApplication.dir/forms/dashboard.cpp.obj	eb146c499397155a
-448	2433	8035893506520219	CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj	ddce32841833a3e5
-2433	2655	8035893526378401	QuizApplication.exe	8551f8159d2d22fe
+431	2445	8035900338333897	CMakeFiles/QuizApplication.dir/forms/viewquestions.cpp.obj	ddce32841833a3e5
+189	1755	8035901681638562	CMakeFiles/QuizApplication.dir/forms/editquestion.cpp.obj	5f0451f3fef818ac
+465	2501	8035918314214121	CMakeFiles/QuizApplication.dir/forms/quizwindow.cpp.obj	dc3c7872420369c4
+1700	5161	8035921790604446	CMakeFiles/QuizApplication.dir/forms/resultwindow.cpp.obj	449c3aff6f57d27a
+25	453	8035923572742865	QuizApplication_autogen/timestamp	409542788a140921
+25	453	8035923572742865	QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
+25	453	8035923572742865	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/timestamp	409542788a140921
+25	453	8035923572742865	D:/Intern Projects/QuizApplication/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuizApplication_autogen/mocs_compilation.cpp	409542788a140921
+453	2200	8035923573434558	CMakeFiles/QuizApplication.dir/QuizApplication_autogen/mocs_compilation.cpp.obj	544aae2370c62bbd
+459	2210	8035923573494409	CMakeFiles/QuizApplication.dir/forms/resultwindow.cpp.obj	449c3aff6f57d27a
+456	2403	8035923573464651	CMakeFiles/QuizApplication.dir/forms/quizwindow.cpp.obj	dc3c7872420369c4
+2403	2697	8035923592931980	QuizApplication.exe	c80f3476f58b2a3d

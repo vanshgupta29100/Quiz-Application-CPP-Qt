@@ -30,6 +30,18 @@ set(PROJECT_SOURCES
         forms/viewquestions.h
         forms/viewquestions.ui
 
+        forms/editquestion.cpp
+        forms/editquestion.h
+        forms/editquestion.ui
+
+        forms/quizwindow.cpp
+        forms/quizwindow.h
+        forms/quizwindow.ui
+
+        forms/resultwindow.cpp
+        forms/resultwindow.h
+        forms/resultwindow.ui
+
         database/databasemanager.cpp
         database/databasemanager.h
 )
@@ -44,6 +56,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         forms/dashboard.h forms/dashboard.cpp forms/dashboard.ui
         forms/questionmanager.h forms/questionmanager.cpp forms/questionmanager.ui
         forms/viewquestions.h forms/viewquestions.cpp forms/viewquestions.ui
+        forms/editquestion.h forms/editquestion.cpp forms/editquestion.ui
+        forms/quizwindow.h forms/quizwindow.cpp forms/quizwindow.ui
+        forms/resultwindow.h forms/resultwindow.cpp forms/resultwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET QuizApplication APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

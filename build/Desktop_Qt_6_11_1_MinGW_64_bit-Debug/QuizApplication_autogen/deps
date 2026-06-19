@@ -11,13 +11,20 @@ QuizApplication_autogen/timestamp: \
 	D:/Intern\ Projects/QuizApplication/database/databasemanager.h \
 	D:/Intern\ Projects/QuizApplication/forms/dashboard.cpp \
 	D:/Intern\ Projects/QuizApplication/forms/dashboard.h \
+	D:/Intern\ Projects/QuizApplication/forms/editquestion.cpp \
+	D:/Intern\ Projects/QuizApplication/forms/editquestion.h \
 	D:/Intern\ Projects/QuizApplication/forms/loginwindow.cpp \
 	D:/Intern\ Projects/QuizApplication/forms/loginwindow.h \
 	D:/Intern\ Projects/QuizApplication/forms/questionmanager.cpp \
 	D:/Intern\ Projects/QuizApplication/forms/questionmanager.h \
+	D:/Intern\ Projects/QuizApplication/forms/quizwindow.cpp \
+	D:/Intern\ Projects/QuizApplication/forms/quizwindow.h \
+	D:/Intern\ Projects/QuizApplication/forms/resultwindow.cpp \
+	D:/Intern\ Projects/QuizApplication/forms/resultwindow.h \
 	D:/Intern\ Projects/QuizApplication/forms/viewquestions.cpp \
 	D:/Intern\ Projects/QuizApplication/forms/viewquestions.h \
 	D:/Intern\ Projects/QuizApplication/main.cpp \
+	D:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/q20functional.h \
@@ -143,6 +150,7 @@ QuizApplication_autogen/timestamp: \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/qutf8stringview.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/qvariant.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/qvarlengtharray.h \
+	D:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/qxptype_traits.h \
 	D:/Qt/6.11.1/mingw_64/include/QtCore/qyieldcpu.h \
@@ -639,7 +647,10 @@ QuizApplication_autogen/timestamp: \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	D:/Intern\ Projects/QuizApplication/forms/dashboard.ui \
+	D:/Intern\ Projects/QuizApplication/forms/editquestion.ui \
 	D:/Intern\ Projects/QuizApplication/forms/loginwindow.ui \
 	D:/Intern\ Projects/QuizApplication/forms/questionmanager.ui \
+	D:/Intern\ Projects/QuizApplication/forms/quizwindow.ui \
+	D:/Intern\ Projects/QuizApplication/forms/resultwindow.ui \
 	D:/Intern\ Projects/QuizApplication/forms/viewquestions.ui \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -28,6 +28,7 @@ public:
     QPushButton *addQuestionButton;
     QPushButton *pushButton_2;
     QPushButton *logoutButton;
+    QPushButton *startQuizButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -49,7 +50,10 @@ public:
         pushButton_2->setGeometry(QRect(110, 180, 101, 24));
         logoutButton = new QPushButton(centralwidget);
         logoutButton->setObjectName("logoutButton");
-        logoutButton->setGeometry(QRect(110, 220, 80, 24));
+        logoutButton->setGeometry(QRect(110, 260, 80, 24));
+        startQuizButton = new QPushButton(centralwidget);
+        startQuizButton->setObjectName("startQuizButton");
+        startQuizButton->setGeometry(QRect(110, 220, 80, 24));
         Dashboard->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Dashboard);
         menubar->setObjectName("menubar");
@@ -71,6 +75,7 @@ public:
         addQuestionButton->setText(QCoreApplication::translate("Dashboard", "Add Question", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Dashboard", "View Questions", nullptr));
         logoutButton->setText(QCoreApplication::translate("Dashboard", "Logout", nullptr));
+        startQuizButton->setText(QCoreApplication::translate("Dashboard", "Start Quiz", nullptr));
     } // retranslateUi
 
 };

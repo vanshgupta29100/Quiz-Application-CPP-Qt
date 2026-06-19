@@ -1,5 +1,7 @@
 #include "viewquestions.h"
 #include "ui_viewquestions.h"
+#include "editquestion.h"
+
 #include <QMessageBox>
 #include <QSqlQuery>
 
@@ -138,3 +140,51 @@ void ViewQuestions::on_deleteButton_clicked()
             );
     }
 }
+
+void ViewQuestions::on_editButton_clicked()
+{
+    int currentRow =
+        ui->questionTableWidget->currentRow();
+
+    if(currentRow < 0)
+    {
+        return;
+    }
+
+    EditQuestion *editWindow =
+        new EditQuestion();
+
+    editWindow->setQuestionData(
+        ui->questionTableWidget
+            ->item(currentRow,0)
+            ->text()
+            .toInt(),
+
+        ui->questionTableWidget
+            ->item(currentRow,1)
+            ->text(),
+
+        ui->questionTableWidget
+            ->item(currentRow,2)
+            ->text(),
+
+        ui->questionTableWidget
+            ->item(currentRow,3)
+            ->text(),
+
+        ui->questionTableWidget
+            ->item(currentRow,4)
+            ->text(),
+
+        ui->questionTableWidget
+            ->item(currentRow,5)
+            ->text(),
+
+        ui->questionTableWidget
+            ->item(currentRow,6)
+            ->text()
+        );
+
+    editWindow->show();
+}
+

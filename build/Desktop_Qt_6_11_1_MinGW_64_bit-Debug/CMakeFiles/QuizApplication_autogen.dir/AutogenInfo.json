@@ -401,6 +401,12 @@
 			null
 		],
 		[
+			"D:/Intern Projects/QuizApplication/forms/editquestion.h",
+			"MU",
+			"QM7UNKGVG2/moc_editquestion.cpp",
+			null
+		],
+		[
 			"D:/Intern Projects/QuizApplication/forms/loginwindow.h",
 			"MU",
 			"QM7UNKGVG2/moc_loginwindow.cpp",
@@ -410,6 +416,18 @@
 			"D:/Intern Projects/QuizApplication/forms/questionmanager.h",
 			"MU",
 			"QM7UNKGVG2/moc_questionmanager.cpp",
+			null
+		],
+		[
+			"D:/Intern Projects/QuizApplication/forms/quizwindow.h",
+			"MU",
+			"QM7UNKGVG2/moc_quizwindow.cpp",
+			null
+		],
+		[
+			"D:/Intern Projects/QuizApplication/forms/resultwindow.h",
+			"MU",
+			"QM7UNKGVG2/moc_resultwindow.cpp",
 			null
 		],
 		[
@@ -500,12 +518,23 @@
 		],
 		[ "D:/Intern Projects/QuizApplication/forms/dashboard.cpp", "MU", null ],
 		[
+			"D:/Intern Projects/QuizApplication/forms/editquestion.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/Intern Projects/QuizApplication/forms/loginwindow.cpp",
 			"MU",
 			null
 		],
 		[
 			"D:/Intern Projects/QuizApplication/forms/questionmanager.cpp",
+			"MU",
+			null
+		],
+		[ "D:/Intern Projects/QuizApplication/forms/quizwindow.cpp", "MU", null ],
+		[
+			"D:/Intern Projects/QuizApplication/forms/resultwindow.cpp",
 			"MU",
 			null
 		],
